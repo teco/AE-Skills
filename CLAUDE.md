@@ -4,7 +4,7 @@ This repo contains Claude Code skills for Enterprise Account Executives at Sales
 
 ## What This Repo Provides
 
-Five skills for the day-to-day AE workflow:
+Seven skills for the day-to-day AE workflow:
 
 | Skill | When to use |
 |---|---|
@@ -13,6 +13,8 @@ Five skills for the day-to-day AE workflow:
 | `/deal-intel` | MEDDPICC-framed deep dive on a specific opportunity |
 | `/pipeline-pulse` | SAF pipeline review with risk flags, delivered to Slack DM |
 | `/close-plan` | Challenger-framed close plan grounded in Org62 + account Slack channel |
+| `/sales-discovery-questions` | MEDDPICC gap analysis → targeted discovery questions for an upcoming call |
+| `/opp-health-check` | MEDDPICC scorecard + forecast confidence assessment + prioritized action plan |
 
 ## Required Setup
 
@@ -77,6 +79,8 @@ npx skills add <source>@developing-agentforce -g -y
 These skills are built around **MEDDPICC** and **Challenger Sale**:
 - Risk flags in `deal-intel` and `pipeline-pulse` map to MEDDPICC dimensions
 - `close-plan` uses Challenger framing (reframe, rational drowning, emotional impact)
+- `sales-discovery-questions` maps known context against MEDDPICC to identify gaps and generate targeted questions
+- `opp-health-check` scores each MEDDPICC dimension and produces a prioritized action plan — chains into discovery questions or close plan
 - Missing economic buyer, undefined decision process, and no identified pain are always flagged as blockers
 
 ## Slack Caution
@@ -93,4 +97,6 @@ The Slack MCP acts as **you**. Messages appear as sent by your user.
 /deal-intel 006ed00000dKYjpAAG
 /pipeline-pulse
 /close-plan "MC SELA Renewal" #acct-claro-mc
+/sales-discovery-questions Claro, stage 03, VP Digital Marketing
+/opp-health-check "MC SELA Renewal"
 ```
