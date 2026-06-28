@@ -4,7 +4,7 @@ This repo contains Claude Code skills for Enterprise Account Executives at Sales
 
 ## What This Repo Provides
 
-Seven skills for the day-to-day AE workflow:
+Eight skills for the day-to-day AE workflow:
 
 | Skill | When to use |
 |---|---|
@@ -15,6 +15,7 @@ Seven skills for the day-to-day AE workflow:
 | `/close-plan` | Challenger-framed close plan grounded in Org62 + account Slack channel |
 | `/sales-discovery-questions` | MEDDPICC gap analysis → targeted discovery questions for an upcoming call |
 | `/opp-health-check` | MEDDPICC scorecard + forecast confidence assessment + prioritized action plan |
+| `/news-digest` | On-demand RSS digest across Salesforce, AI, MadTech, OpenAI, Gemini, and Data topics — delivered as Slack DM |
 
 ## Required Setup
 
