@@ -71,15 +71,15 @@ SAF query template:
 ## Usage
 
 ```
-/account-brief Claro S.A.
-/account-360 Telefonica Brasil
-/deal-intel 006ed00000dKYjpAAG
+/account-brief Banco Inter S.A.
+/account-360 Acerto
+/deal-intel 006ed00000nDeZhAAK
 /pipeline-pulse
-/close-plan "MC SELA Renewal" #acct-claro-mc
-/sales-discovery-questions Claro, stage 03, VP Digital Marketing
-/opp-health-check "MC SELA Renewal"
+/close-plan "BANCO INTER S.A. - Agentforce, CX (A4X + ScV + DE), MC Next, WA, Slack Ent+, Tableau+, PLAT, Signature, CTO" #acct-inter-martech
+/sales-discovery-questions Banco Inter, stage 03, VP Digital Marketing
+/opp-health-check "BANCO INTER S.A. - Agentforce, CX (A4X + ScV + DE), MC Next, WA, Slack Ent+, Tableau+, PLAT, Signature, CTO"
 /news-digest
-/salesforce-presentation "Claro QBR Q3 2026"
+/salesforce-presentation "Quod QBR Q3 2026"
 ```
 
 ## MEDDPICC Alignment
