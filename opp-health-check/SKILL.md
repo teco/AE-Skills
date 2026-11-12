@@ -68,7 +68,7 @@ LIMIT 10
 
 **SAF record (to confirm specialist team membership and forecast):**
 ```soql
-SELECT Id, Opportunity__c, ForecastAmount__c, ForecastCategory__c, StageName__c
+SELECT Id, Opportunity__c, ForecastAmount__c, ForecastStatus__c, ForecastStage__c
 FROM SpecialistForecast__c
 WHERE Opportunity__c = '<opp_id>'
 LIMIT 3
